@@ -27,6 +27,7 @@ ol, ul {
 
 .top-navigation > .content {
     height: 4.375rem;
+    width: 69rem;
 }
 
 .top-navigation .links {
@@ -48,8 +49,12 @@ ol, ul {
 }
 
 .top-navigation .links li.active {
-    color: #4c5058;
+    color: #3c4048;
     font-weight: 500;
+}
+
+.top-navigation .links li.active:hover {
+    color: #1c2028;
 }
 
 .top-navigation .logo {
@@ -76,12 +81,19 @@ ol, ul {
 .introduction h1 {
     margin-top: 17.5rem;
     font-size: 3.125rem;
+    margin-bottom: 0;
+    font-weight: 300;
 }
 
 .introduction h1, .introduction h3 {
     color: white;
     text-align: center;
-    font-weight: 300;
+}
+
+.introduction h3 {
+    font-size: 1.425rem;
+    margin-top: 1rem;
+    font-weight: 100;
 }
 
 .introduction .buttons {
@@ -103,13 +115,13 @@ button {
 }
 
 button:hover {
-    background-color: #ff5a29;
-    border-color: #ff5a29;
-    font-weight: 700;
+    background-color: #dd3a29;
+    border-color: #dd3a29;
     cursor: pointer;
 }
 
 .cases {
+    margin-top: 2.725rem;
     background-color: #fff;
     overflow: hidden;
     padding-bottom: 5rem;
