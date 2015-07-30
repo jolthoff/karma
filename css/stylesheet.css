@@ -115,21 +115,27 @@ button:hover {
     padding-bottom: 5rem;
 }
 
+.cases .content {
+    width: 70rem;
+}
+
 .cases h2 {
     padding: 3rem;
     text-align: center;
     color: #1d1e21;
     font-size: 2.76rem;
     font-weight: 300;
+    margin-bottom: 1rem;
 }
 
 .cases ul {
+    margin-top: 0;
     text-align: center;
 }
 
 .cases li {
     display: inline-block;
-    padding: 0 3.125rem 0 3.125rem;
+    padding: 0 3.725rem 0 3.725rem;
     font-size: 0.93rem;
     color: #1d1e21;
     width: 11rem;
@@ -140,10 +146,14 @@ button:hover {
 }
 
 .devices .caption {
-    font-size: 1rem;
-    margin-left: -1.725rem;
-    width: 130%;
+    margin-left: -2.925rem;
+    width: 150%;
     color: #333;
+}
+
+.devices .caption h3 {
+    font-size: 1.545rem;
+    font-weight: 500;
 }
 
 .social {
@@ -157,14 +167,14 @@ button:hover {
 
 .social h5 {
     font-size: .975rem;
-    color: #444;
+    color: #222;
     margin-bottom: 0;
 }
 
 .icons {
     text-align: center;
     padding-left: 0;
-    margin-top: 0;
+    margin: 0;
 }
 
 .icons li {
@@ -184,6 +194,10 @@ button:hover {
 
 footer {
     padding-bottom: 8.275rem;
+}
+
+.social h5 {
+    font-weight: 500;
 }
 
 .social .twitter {
