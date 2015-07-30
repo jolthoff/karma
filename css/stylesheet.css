@@ -148,7 +148,7 @@ button:hover {
 .devices .caption {
     margin-left: -2.925rem;
     width: 150%;
-    color: #333;
+    color: #111;
 }
 
 .devices .caption h3 {
@@ -197,7 +197,8 @@ footer {
 }
 
 .social h5 {
-    font-weight: 300;
+    font-weight: 400;
+    color: #111;
 }
 
 .social .twitter {
