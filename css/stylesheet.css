@@ -152,8 +152,8 @@ button:hover {
 }
 
 .devices .caption h3 {
-    font-size: 1.545rem;
-    font-weight: 500;
+    font-size: 1.445rem;
+    font-weight: 300;
 }
 
 .social {
@@ -197,7 +197,7 @@ footer {
 }
 
 .social h5 {
-    font-weight: 500;
+    font-weight: 300;
 }
 
 .social .twitter {
