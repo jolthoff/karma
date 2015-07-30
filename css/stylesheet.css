@@ -2,16 +2,16 @@
   * Making layout visible during styling progress
   */
 body {
-    background-color: LightGray;
+    /*background-color: LightGray;*/
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
     line-height: 1;
     letter-spacing: 0.03em;
 }
 
-div {
+/*div {
     border: 1px solid Chocolate;
-}
+}*/
 
 ol, ul {
     list-style: none;
@@ -29,13 +29,6 @@ ol, ul {
     height: 4.375rem;
 }
 
-.content {
-	padding: 0 0.938rem;
-    margin: 0 auto;
-    min-width: 37.5rem;
-    width: 60%;
-}
-
 .top-navigation .links {
     float: right;
     color: #838994;
@@ -46,6 +39,7 @@ ol, ul {
 .top-navigation .links li {
     display: inline-block;
     margin-left: 1.563rem;
+    cursor: pointer;
 }
 
 .top-navigation .links li:hover {
@@ -59,7 +53,8 @@ ol, ul {
 }
 
 .top-navigation .logo {
-	height: 4.375rem;
+    margin-top: .9rem;
+	height: 2.4rem;
 }
 
 .introduction {
@@ -72,7 +67,7 @@ ol, ul {
 }
 
 .content {
-    width: 60rem;
+    width: 55rem;
     padding: 0 0.938rem;
     margin: 0 auto;
     min-width: 37.5rem;
@@ -105,11 +100,105 @@ button {
     padding: 1rem 1.5rem;
     color: white;
     font-size: 1.125rem;
-    transition: background-color 1s border-color 1s font-weight 1s;
 }
 
 button:hover {
     background-color: #ff5a29;
     border-color: #ff5a29;
     font-weight: 700;
+    cursor: pointer;
+}
+
+.cases {
+    background-color: #fff;
+    overflow: hidden;
+    padding-bottom: 5rem;
+}
+
+.cases h2 {
+    padding: 3rem;
+    text-align: center;
+    color: #1d1e21;
+    font-size: 2.76rem;
+    font-weight: 300;
+}
+
+.cases ul {
+    text-align: center;
+}
+
+.cases li {
+    display: inline-block;
+    padding: 0 3.125rem 0 3.125rem;
+    font-size: 0.93rem;
+    color: #1d1e21;
+    width: 11rem;
+}
+
+.devices {
+    padding-left: 0;
+}
+
+.devices .caption {
+    font-size: 1rem;
+    margin-left: -1.725rem;
+    width: 130%;
+    color: #333;
+}
+
+.social {
+    text-align: center;
+    color: #1d1e21;
+}
+
+.social .content {
+    border-top: solid 1px #aaa;
+}
+
+.social h5 {
+    font-size: .975rem;
+    color: #444;
+    margin-bottom: 0;
+}
+
+.icons {
+    text-align: center;
+    padding-left: 0;
+    margin-top: 0;
+}
+
+.icons li {
+    border-radius: 1.25rem;
+    width: 2.5rem;
+    display: inline-block;
+    margin: 1.25rem 5px;
+    border: 1px solid #eaebec;
+    padding: 0.625rem 0 0.625rem 0;
+    text-align: center;
+}
+
+.icons li:hover {
+    cursor: pointer;
+    background-color: #fefefe;
+}
+
+footer {
+    padding-bottom: 8.275rem;
+}
+
+.social .twitter {
+    color: #55acee;
+}
+
+.social .facebook {
+    color: #4c66a4;
+}
+
+.social .instagram {
+    color: #3f729b;
+}
+
+.copyright {
+    font-size: .85rem;
+    color: #999;
 }
